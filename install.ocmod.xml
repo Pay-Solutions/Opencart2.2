@@ -1,0 +1,16 @@
+<modification>
+	<name>Payment logos in Checkout</name>
+	<version>1.0</version>
+	<author>PaySolution</author>
+	<code>PaySolutionsCheckOut</code>
+	<file path="catalog/view/theme/*/template/checkout/payment_method.tpl">
+		<operation>
+			<search><![CDATA[<?php if ($payment_method['terms']) { ?>]]></search>
+			<add position="before"><![CDATA[
+    <?php if (isset($payment_method['logo'])) { ?>
+    <?php echo $payment_method['logo']; ?>
+    <?php } ?>      
+]]></add>
+		</operation>
+	</file>
+</modification>
