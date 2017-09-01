@@ -127,7 +127,7 @@ class ControllerPaymentPaysolution extends Controller {
 		// } // maxx : end $order_info check
 	}
 	public function callback() {
-		$this->load->model ( 'payment/paysolutions' );
+		$this->load->model ( 'payment/paysolution' );
 		$this->load->model ( 'checkout/order' );
 		
 		$refno = $this->request->post ['refno'];

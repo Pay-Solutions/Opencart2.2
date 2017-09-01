@@ -17,5 +17,5 @@ Make sure "payment/Paysolution" is checked in both the Access Permission and Mod
 13) Status: Choose "Enabled"
 15) Sort Order: number 0 for top and more is bottom
 16) Save Paysolution Payment Gateway, using the blue-white button in the upper right corner.
-
+17) set http://{your_website}/payment/paysolution/callback as postback url on your control.thaiepay.com
 We wish you lots of sales using Paysolution Payment Gateway.
