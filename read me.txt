@@ -1,5 +1,5 @@
+How to install Plug-in
 
-   
 1) Login to your Administration panel. 
 2) Select "Extensions > Extension Installer > Upload file > Upload >".
 3) Upload the file "install.ocmod.xml"
@@ -20,3 +20,22 @@ Make sure "payment/Paysolution" is checked in both the Access Permission and Mod
 17) Save Paysolution Payment Gateway, using the blue-white button in the upper right corner.
 18) set http://{your_website}/payment/paysolution/callback as postback url on your control.thaiepay.com
 We wish you lots of sales using Paysolution Payment Gateway.
+
+วิธีลง Plug-in
+
+1. เข้าไปยังหน้า Admin
+2. เลือกเมนู "Extensions > ติดตั้งส่วนเสริมภายนอก > อัพโหลดไฟล์ > อัพโหลด >"
+3. อัพโหลดไฟล์ "install.ocmod.xml" จากโฟลเดอร์ที่ดาวน์โหลดมา และอัพโหลดโฟลเดอร์ admin, catalog, image ไปยัง root ของเว็บไซต์ที่ได้ทำการอัพโหลดเว็บไว้
+4. เลือกเมนู "Extensions > ปรับปรุงส่วนเสริมภายนอก" จากนั้นกดปุ่มรีเฟรช
+5. เลือกเมนู "System > ผู้ใช้> กลุ่มผู้ใช้" เลือกแก้ไข “Administrator” และทำเครื่องหมายเช็คในด้านหน้าของ "payment/Paysolution" ทั้งช่องรายการของ Access Permission(สิทธิในการเข้าถึง) และ Modify  Permission (สิทธิในการแก้ไข) หลังจากนั้นกดบันทึก
+6.เลือก "Extensions > การชำระเงิน”
+7.เลือกติดตั้ง Paysolution
+8.เลือกแก้ไข และกรอกขอมูล
+Merchant ID ของท่าน
+Transaction Method: Choose "Payment"  
+Waiting payment Status: Choose "Pending"
+Order Status Success: Choose "Processing"
+Payment Status Failed: Choose "Failed"
+Status: Choose "Enabled"
+Sort Order: หมายเลข 0 เพื่อเอาไว้ด้านบนสุด หรือเพิ่มอันดับเพื่อลงมาด้านล่าง
+
