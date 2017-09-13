@@ -4,7 +4,7 @@
 2) Select "Extensions > Extension Installer > Upload file > Upload >".
 3) Upload the file "install.ocmod.xml"
 4) Select "Extensions > Modifications" and press the refresh button. 
-5) Put Folder "admin / catalog / image " to your root opencart
+5) Put Folder "admin / catalog / image " to your root opencart *** (Important) ***
 6) Select "System > Users > User Groups". Edit the "Top Administrator" group.
 Make sure "payment/Paysolution" is checked in both the Access Permission and Modify Permission lists. Save.   
 7) Select "Extensions > Payments >".
