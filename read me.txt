@@ -4,18 +4,19 @@
 2) Select "Extensions > Extension Installer > Upload file > Upload >".
 3) Upload the file "install.ocmod.xml"
 4) Select "Extensions > Modifications" and press the refresh button. 
-5) Select "System > Users > User Groups". Edit the "Top Administrator" group.
+5) Put Folder "admin / catalog / image " to your root opencart
+6) Select "System > Users > User Groups". Edit the "Top Administrator" group.
 Make sure "payment/Paysolution" is checked in both the Access Permission and Modify Permission lists. Save.   
-6) Select "Extensions > Payments >".
-7) Click on Install "Paysolution"
-8) Click on Edit "Paysolution"
-9) Fill in your account's email address used Paysolution.
-10) Transaction Method: Choose "Payment"  
-11) Waiting payment Status: Choose "Pending"
-12) Order Status Success: Choose "Processing"
-12) Payment Status Failed: Choose "Failed"
-13) Status: Choose "Enabled"
-15) Sort Order: number 0 for top and more is bottom
-16) Save Paysolution Payment Gateway, using the blue-white button in the upper right corner.
-17) set http://{your_website}/payment/paysolution/callback as postback url on your control.thaiepay.com
+7) Select "Extensions > Payments >".
+8) Click on Install "Paysolution"
+9) Click on Edit "Paysolution"
+10) Fill in your account's email address used Paysolution.
+11) Transaction Method: Choose "Payment"  
+12) Waiting payment Status: Choose "Pending"
+13) Order Status Success: Choose "Processing"
+14) Payment Status Failed: Choose "Failed"
+15) Status: Choose "Enabled"
+16) Sort Order: number 0 for top and more is bottom
+17) Save Paysolution Payment Gateway, using the blue-white button in the upper right corner.
+18) set http://{your_website}/payment/paysolution/callback as postback url on your control.thaiepay.com
 We wish you lots of sales using Paysolution Payment Gateway.
