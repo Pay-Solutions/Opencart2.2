@@ -138,7 +138,7 @@ class ControllerPaymentPaysolution extends Controller {
 		$error = '';
 		
 		if ($status == "CP") {
-			$this->model_checkout_order->confirm ( $refno, $this->config->get ( 'paysolution_order_status_id' ) );
+			$this->model_checkout_order->addOrderHistory ( $refno, $this->config->get ( 'paysolution_order_status_id' ) );
 		}
 	}
 }
